@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zero Fila Admin</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar ou registrar</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="error_invalid_email">Este email está inválido</string>
+    <string name="error_invalid_password">Esta senha está curta</string>
+    <string name="error_incorrect_password">Esta senha está incorreta</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+    completions."
+    </string>
+    <string name="queue_message"> agora está em atendimento</string>
+    <string name="late"> está atrasado</string>
+    <string name="the_client">O cliente (</string>
+    <string name="is_approved">) está aprovado para o atendimento com o</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="queue">Filas</string>
+    <string name="your_establishment">Seu estabelecimento é aqui?</string>
+    <string name="if_yes">Se sim, pressione Usar</string>
+    <string name="setting">Configuração</string>
+    <string name="new_queue">Cadastrar Fila</string>
+    <string name="name">Nome</string>
+    <string name="type">Tipo de atendimento</string>
+    <string name="description">Descrição</string>
+    <string name="save">Salvar</string>
+    <string name="local">Local</string>
+    <string name="use">Usar</string>
+    <string name="mark">Marque o local</string>
+    <string name="establishment_error_message">Preencha os campos corretamente</string>
+    <string name="request_empty">Nenhum check-in</string>
+    <string name="logout">Sair</string>
+    <string name="check_in">Check-ins</string>
+    <string-array name="establishment_type">
+        <item>Clínica</item>
+        <item>Banco</item>
+    </string-array>
+</resources>

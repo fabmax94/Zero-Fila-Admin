@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sidia.fabio.zerofilaadmin">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBD-iA5k7U-NTAcnF5w-gt_g7C-itzkS6c" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ConfigActivity" />
+        <activity android:name=".QueueActivity" />
+        <activity android:name=".ClerkActivity" />
+        <activity android:name=".RequestQueueActivity" />
+        <activity android:name=".MapsActivity" android:theme="@style/Theme.Transparent"></activity>
+        <service
+            android:name=".service.RequestService"
+            android:exported="false">
+        </service>
+    </application>
+
+</manifest>

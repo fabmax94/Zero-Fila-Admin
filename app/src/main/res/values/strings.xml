@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Zero Queue Admin</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="error_invalid_email">This email is invalid</string>
+    <string name="error_invalid_password">This password is short</string>
+    <string name="error_incorrect_password">This password is invalid</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+    completions."
+    </string>
+    <string name="queue_message"> is now in attendance</string>
+    <string name="late"> is late</string>
+    <string name="the_client">The client (</string>
+    <string name="is_approved">) is approved to attendance with the</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="queue">Queues</string>
+    <string name="your_establishment">Your establishment is here?</string>
+    <string name="if_yes">If yes, press Use</string>
+    <string name="setting">Setting</string>
+    <string name="new_queue">New Queue</string>
+    <string name="name">Name</string>
+    <string name="type">Attendance Type</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="local">Local</string>
+    <string name="use">Use</string>
+    <string name="mark">Mark the local</string>
+    <string name="establishment_error_message">Fill the fields correctly</string>
+    <string name="request_empty">No check-in</string>
+    <string name="logout">Exit</string>
+    <string name="check_in">Check-ins</string>
+    <string-array name="establishment_type">
+        <item>Clinic</item>
+        <item>Bank</item>
+    </string-array>
+</resources>
