@@ -45,7 +45,7 @@ public class ClerkActivity extends AppCompatActivity {
         etDescription = findViewById(R.id.et_description);
     }
 
-    void onSave(View view) {
+    public void onSave(View view) {
         Clerk clerk = new Clerk(etName.getText().toString(), etType.getText().toString(), etDescription.getText().toString(), key);
         queueViewModel.addClerk(clerk);
         finish();

@@ -49,7 +49,7 @@ public class QueueActivity extends AppCompatActivity {
         });
     }
 
-    void onClerk(View view) {
+    public void onClerk(View view) {
         Intent intent = new Intent(this, ClerkActivity.class);
         intent.putExtra(ClerkActivity.CLERK_CREATE_KEY, key);
         startActivity(intent);

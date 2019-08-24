@@ -98,7 +98,7 @@ public class ConfigActivity extends AppCompatActivity {
         spType.setAdapter(adapter);
     }
 
-    void onSave(View view) {
+    public void onSave(View view) {
         Establishment establishment = new Establishment(etName.getText().toString(), etLocal.getText().toString(), getResources().getStringArray(R.array.establishment_type)[spType.getSelectedItemPosition()], latitude, longitude);
         if (establishment.isValid()) {
             queueViewModel.addEstablishment(establishment, userEmail);
@@ -108,7 +108,7 @@ public class ConfigActivity extends AppCompatActivity {
         }
     }
 
-    void onMap(View view) {
+    public void onMap(View view) {
         Intent intent = new Intent(ConfigActivity.this, MapsActivity.class);
         startActivityForResult(intent, GET_LOCATION);
     }
